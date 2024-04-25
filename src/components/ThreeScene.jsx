@@ -24,10 +24,10 @@ const ThreeScene = () => {
         time: { value: 0 },
         resolution: { value: new THREE.Vector2(window.innerWidth, window.innerHeight) },
       },
-      side: THREE.DoubleSide, // Render both sides of the plane
+      side: THREE.DoubleSide, 
     });
     const plane = new THREE.Mesh(planeGeometry, shaderMaterial);
-    plane.position.z = -1; // Position the plane a bit further back
+    plane.position.z = -1; 
     scene.add(plane);
 
     let startTime = Date.now();
