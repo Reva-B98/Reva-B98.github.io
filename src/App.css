@@ -1,0 +1,104 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: auto; 
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+section {
+  min-height: 100vh; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/*CSS for name*/
+
+.nameOverlay {
+  position: fixed;
+  top: 85%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: rgb(206, 161, 195);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 5rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.social-icons {
+  position: fixed; 
+  top: 82.5%; 
+  left: 25px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px; 
+}
+
+.social-icons a {
+  color: rgb(206, 161, 195); 
+  font-size: 30px; 
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.top-right-nav {
+  position: fixed;
+  top: 55px;
+  right: 120px;
+  margin: 20px;
+  z-index: 1000;
+}
+
+.top-right-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start; /* Aligns items to the right */
+  gap: 10px;
+}
+
+.top-right-nav a {
+  text-decoration: none;
+  color: rgb(206, 161, 195); /* Your existing color scheme */
+  font-weight:bold;
+  transition: color 0.3s;
+  font-size: 1.4rem;
+}
+
+.top-right-nav a:hover {
+  color: #fff;
+}
+
+@media (max-width: 1121px) {
+  .social-icons {
+      display: none; 
+  }
+  .nameOverlay{
+    font-size: 30px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
