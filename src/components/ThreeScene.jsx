@@ -65,6 +65,5 @@ const ThreeScene = () => {
             <Border camera={cameraRef.current} scene={sceneRef.current} />
         </div>
     );
-};
-
+}
 export default ThreeScene;

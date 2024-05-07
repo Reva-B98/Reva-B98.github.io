@@ -23,17 +23,17 @@ const Border = ({ camera, scene }) => {
             line.geometry.setFromPoints(points);
             line.geometry.verticesNeedUpdate = true;
 
-            const time = Date.now() * 0.001; // time in seconds
-            const color1 = new THREE.Color(0xD291BC); // purple
-            const color2 = new THREE.Color(0xFFC0CB); // pink
-            const color3 = new THREE.Color(0xADD8E6); // blue
+            const time = Date.now() * 0.001; 
+            const color1 = new THREE.Color(0xD291BC); 
+            const color2 = new THREE.Color(0xFFC0CB); 
+            const color3 = new THREE.Color(0xADD8E6); 
             
             const color = new THREE.Color().set(color1);
-            if (time % 3 < 1) { // transition from purple to pink
+            if (time % 3 < 1) { 
                 color.lerpColors(color1, color2, (time % 1));
-            } else if (time % 3 < 2) { // transition from pink to blue
+            } else if (time % 3 < 2) { 
                 color.lerpColors(color2, color3, (time % 1));
-            } else { // transition from blue back to purple
+            } else { 
                 color.lerpColors(color3, color1, (time % 1));
             }
 
@@ -54,7 +54,7 @@ const Border = ({ camera, scene }) => {
             scene.remove(line);
             window.removeEventListener('resize', resizeListener);
         };
-    }, [camera, scene]); // Add camera and scene to dependencies to react to changes
+    }, [camera, scene]); 
 
     return null;
 };
