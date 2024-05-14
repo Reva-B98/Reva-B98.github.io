@@ -3,21 +3,22 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: auto; 
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  display: flex;
 }
 
 .App {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row; /* Align sections horizontally */
+  width: 300vw; /* Adjust based on the number of sections */
   height: 100vh;
-  z-index: -1;
 }
 
 section {
-  min-height: 100vh; 
-  width: 100%;
+  min-width: 100vw; /* Ensure each section takes up the full viewport width */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +27,18 @@ section {
   box-sizing: border-box;
 }
 
-/*CSS for name*/
+.ThreeSceneContainer {
+  position: fixed; /* Fix it to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* Background */
+}
+
+.nameOverlay, .social-icons, .top-right-nav {
+  z-index: 1; /* Foreground */
+}
 
 .nameOverlay {
   position: fixed;
@@ -48,7 +60,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px; 
+  gap: 50px;
 }
 
 .social-icons a {
@@ -65,7 +77,6 @@ section {
   top: 55px;
   right: 120px;
   margin: 20px;
-  z-index: 1000;
 }
 
 .top-right-nav ul {
@@ -74,14 +85,14 @@ section {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items:flex-start; /* Aligns items to the right */
+  align-items: flex-start;
   gap: 10px;
 }
 
 .top-right-nav a {
   text-decoration: none;
-  color: rgb(206, 161, 195); /* Your existing color scheme */
-  font-weight:bold;
+  color: rgb(206, 161, 195);
+  font-weight: bold;
   transition: color 0.3s;
   font-size: 1.4rem;
 }
@@ -92,9 +103,9 @@ section {
 
 @media (max-width: 1121px) {
   .social-icons {
-      display: none; 
+    display: none; 
   }
-  .nameOverlay{
+  .nameOverlay {
     font-size: 30px;
   }
 }
