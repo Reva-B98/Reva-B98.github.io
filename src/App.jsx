@@ -57,9 +57,6 @@ function App() {
               <p>My experience working in the industry has helped me grow as a full stack developer and my chosen field of study has helped me work on and gain a lot of knowledge on artificial intelligence, in addition to exposing me to a world of culture and opportunities.</p>
               <p>Feel free to check out my <a href="#projects">projects</a> or learn more about my <a href="#experience">experience</a>.</p>
             </div>
-            <div className="about-image">
-              <img src="/me.png" alt="Reva B." />
-            </div>
           </div>
         </section>
         <section id="projects">
