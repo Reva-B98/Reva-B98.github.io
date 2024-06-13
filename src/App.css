@@ -143,8 +143,9 @@ html {
 
 .about-text {
   flex: 1;
-  margin-right: 50rem;
+  margin-right: 25rem;
   text-align: justify;
+  
 }
 .about-image {
   flex: 1;
