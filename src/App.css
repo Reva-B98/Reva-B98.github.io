@@ -1,4 +1,4 @@
- /* App.css */
+
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -10,8 +10,8 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Disable vertical scrolling */
+  overflow-x: auto; 
+  overflow-y: hidden; 
   display: flex;
   scroll-snap-type: x mandatory;
 }
@@ -19,13 +19,13 @@ body {
 .App {
   position: relative;
   display: flex;
-  flex-direction: row; /* Align sections horizontally */
-  width: 300vw; /* Adjust based on the number of sections */
+  flex-direction: row; 
+  width: 300vw; 
   height: 100vh;
 }
 
 section {
-  min-width: 100vw; /* Ensure each section takes up the full viewport width */
+  min-width: 100vw; 
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,17 +37,17 @@ section {
 }
 
 .ThreeSceneContainer {
-  position: fixed; /* Fix it to the viewport */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 0; /* Background */
-  pointer-events: none; /* Make it non-interactive */
+  z-index: 0; 
+  pointer-events: none; 
 }
 
 .nameOverlay, .social-icons, .top-right-nav {
-  z-index: 1; /* Foreground */
+  z-index: 1; 
 }
 
 .nameOverlay {
