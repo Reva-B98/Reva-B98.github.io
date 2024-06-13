@@ -124,8 +124,7 @@ function Experience() {
       company: 'Infosys',
       period: 'December 2018 – June 2019',
       achievements: [
-        'Designed and developed a dynamic website using Angular for the front end and Node.js along with MongoDB in the backend.',
-        'Guided the design and successful implementation of the website, ensuring 100% alignment with project objectives.'
+        'Designed and developed a dynamic website using Angular for the front end and Node.js along with MongoDB in the backend.'
       ]
     }
   ];
