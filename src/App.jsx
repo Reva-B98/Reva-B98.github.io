@@ -87,7 +87,7 @@ function Projects() {
     },
     {
       title: 'Personal Website',
-      description: 'A personal website developed using modern web technologies to showcase my portfolio, projects, and resume. This project highlights my skills in web development, including React.js and responsive design. Guided the design and successful implementation of the website, ensuring 100% alignment with project objectives.',
+      description: 'A personal website developed using modern web technologies to showcase my portfolio, projects, and resume. This project highlights my skills in web development, including React.js and responsive design.',
       link: 'https://github.com/Reva-B98/personal-website'
     }
   ];
@@ -124,7 +124,8 @@ function Experience() {
       company: 'Infosys',
       period: 'December 2018 – June 2019',
       achievements: [
-        'Designed and developed a dynamic website using Angular for the front end and Node.js along with MongoDB in the backend.'
+        'Designed and developed a dynamic website using Angular for the front end and Node.js along with MongoDB in the backend.',
+        'Guided the design and successful implementation of the website, ensuring 100% alignment with project objectives.'
       ]
     }
   ];
