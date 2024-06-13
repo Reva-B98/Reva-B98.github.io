@@ -1,8 +1,18 @@
-# React + Vite
+# Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Overview
+This project is a personal website for showcasing my portfolio, projects, and resume. Built using React and Vite, it leverages modern web technologies for a fast and efficient development experience. The site includes a Three.js background animation, a project carousel, and sections for about me, my projects, and my experience.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
+React: Utilizes React for building the user interface, offering a component-based structure and efficient state management.
+Vite: Uses Vite for fast development and build processes, including hot module replacement (HMR) for an improved development workflow.
+Three.js: Integrates Three.js for a dynamic and visually appealing background animation.
+Project Carousel: Features a carousel to showcase different projects with descriptions and links.
+Responsive Design: Ensures the website is accessible and looks great on all devices.
+GitHub Pages Deployment: Deployed using GitHub Pages for easy access and sharing.
+# Technologies Used
+React: A JavaScript library for building user interfaces.
+Vite: A build tool that provides a fast and lean development experience.
+Three.js: A JavaScript library used to create and display animated 3D graphics in the browser.
+GLSL: Shading language used for programming the graphics processing unit (GPU).
+CSS: For styling and layout.
