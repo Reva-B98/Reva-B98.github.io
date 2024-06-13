@@ -4,7 +4,6 @@ precision highp float;
 
 uniform float time;
 uniform vec2 resolution;
-uniform vec4 mouse;
 
 void main(void) {
     vec2 position = gl_FragCoord.xy / resolution.xy;
@@ -17,6 +16,4 @@ void main(void) {
     vec3 cloudColor = mix(skyColor, vec3(1.0), smoothstep(0.2, 0.8, cloudShape));
 
     gl_FragColor = vec4(cloudColor, 1.0);
-
-    
 }
