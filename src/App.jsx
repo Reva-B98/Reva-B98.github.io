@@ -115,11 +115,8 @@ function Experience() {
         'Developed responsive and interactive web pages using Angular, HTML, and CSS, improving load times by 20%.',
         'Supported backend development with SpringBoot and crafted refined SQL queries, boosting database performance by 15%.',
         'Achieved a 98% completion rate on bug fixes and deliverable timelines.',
-        'Implemented innovative solutions that improved project performance by 30%.',
         'Reduced new bug introduction by 25% through process improvements.',
-        'Contributed to creating RESTful web services using the Spring framework, enhancing system efficiency by 20%.',
-        'Optimized stored procedures, reducing execution time by 40%.',
-        'Collaborated closely with product owners and managers, ensuring 95% alignment with business needs.'
+        'Contributed to creating RESTful web services using the Spring framework, enhancing system efficiency by 20%.'
       ]
     },
     {
@@ -128,7 +125,6 @@ function Experience() {
       period: 'December 2018 – June 2019',
       achievements: [
         'Designed and developed a dynamic website using Angular for the front end and Node.js along with MongoDB in the backend.',
-        'Demonstrated strong collaboration skills, resulting in a 25% increase in team productivity.',
         'Guided the design and successful implementation of the website, ensuring 100% alignment with project objectives.'
       ]
     }
